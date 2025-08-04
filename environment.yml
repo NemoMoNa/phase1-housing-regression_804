@@ -1,0 +1,12 @@
+name: phase1-housing-regression
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # ← GPUなら `pytorch` チャネル指定に変更
